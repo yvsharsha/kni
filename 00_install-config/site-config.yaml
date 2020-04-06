@@ -2,7 +2,8 @@ apiVersion: kni.akraino.org/v1alpha1
 kind: SiteConfig
 metadata:
   name: notImportantHere
-config: {}
+config:
+  virtualizedInstall: "true"
 provisioningInfrastructure:
   hosts:
     # interface to use for provisioning on the masters
