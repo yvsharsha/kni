@@ -55,7 +55,7 @@ provisioningInfrastructure:
       # pxe boot server will be at port 8080 on this address
       provisioningIpAddress: 172.22.0.1
       # Interface on the provisioning host that connects to the baremetal network
-      baremetal: eno2.2002
+      baremetal: eno1.2002
       # Must be in baremetalIpCidr range
       baremetalIpAddress: 192.168.111.199
       # Interface on the provisioning host that connects to the internet/external network
